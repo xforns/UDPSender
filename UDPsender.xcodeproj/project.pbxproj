@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E03225C15EF51B500F66700 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E03225B15EF51B500F66700 /* Default.png */; };
+		0E03225F15EF51B900F66700 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E03225E15EF51B900F66700 /* Default@2x.png */; };
+		0EBC1B3115EA16B900C09E7C /* iconep1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC1B3015EA16B900C09E7C /* iconep1.png */; };
+		F3469ADC15DD3464000F9688 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3469ADB15DD3464000F9688 /* CFNetwork.framework */; };
+		F394932E162B28D400F3CD31 /* icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = F394932D162B28D400F3CD31 /* icon_57_57.png */; };
+		F3949353162B290000F3CD31 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3949331162B290000F3CD31 /* ActionViewController.m */; };
+		F3949354162B290000F3CD31 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3949332162B290000F3CD31 /* ActionViewController.xib */; };
+		F3949355162B290000F3CD31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3949334162B290000F3CD31 /* AppDelegate.m */; };
+		F3949356162B290000F3CD31 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3949336162B290000F3CD31 /* ConfigViewController.m */; };
+		F3949357162B290000F3CD31 /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3949337162B290000F3CD31 /* ConfigViewController.xib */; };
+		F3949358162B290000F3CD31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3949338162B290000F3CD31 /* InfoPlist.strings */; };
+		F3949359162B290000F3CD31 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F394933A162B290000F3CD31 /* MasterViewController.xib */; };
+		F394935A162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.m in Sources */ = {isa = PBXBuildFile; fileRef = F394933D162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.m */; };
+		F394935B162B290000F3CD31 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F394933F162B290000F3CD31 /* GCDAsyncUdpSocket.m */; };
+		F394935C162B290000F3CD31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3949340162B290000F3CD31 /* main.m */; };
+		F394935D162B290000F3CD31 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3949342162B290000F3CD31 /* MasterViewController.m */; };
+		F3949367162B290000F3CD31 /* UDPsender-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3949351162B290000F3CD31 /* UDPsender-Info.plist */; };
+		F3EF3D8E15D939A000AAD47E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF3D8D15D939A000AAD47E /* UIKit.framework */; };
+		F3EF3D9015D939A000AAD47E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF3D8F15D939A000AAD47E /* Foundation.framework */; };
+		F3EF3D9215D939A000AAD47E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF3D9115D939A000AAD47E /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E03225B15EF51B500F66700 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0E03225E15EF51B900F66700 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0EBC1B3015EA16B900C09E7C /* iconep1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconep1.png; sourceTree = "<group>"; };
+		F3469ADB15DD3464000F9688 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F394932D162B28D400F3CD31 /* icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57_57.png; sourceTree = "<group>"; };
+		F3949330162B290000F3CD31 /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		F3949331162B290000F3CD31 /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		F3949332162B290000F3CD31 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
+		F3949333162B290000F3CD31 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3949334162B290000F3CD31 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3949335162B290000F3CD31 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		F3949336162B290000F3CD31 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		F3949337162B290000F3CD31 /* ConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
+		F3949339162B290000F3CD31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F394933B162B290000F3CD31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		F394933C162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GCDAsyncUdpSocket+sendString.h"; sourceTree = "<group>"; };
+		F394933D162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GCDAsyncUdpSocket+sendString.m"; sourceTree = "<group>"; };
+		F394933E162B290000F3CD31 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		F394933F162B290000F3CD31 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		F3949340162B290000F3CD31 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3949341162B290000F3CD31 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F3949342162B290000F3CD31 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F3949351162B290000F3CD31 /* UDPsender-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UDPsender-Info.plist"; sourceTree = "<group>"; };
+		F3949352162B290000F3CD31 /* UDPsender-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UDPsender-Prefix.pch"; sourceTree = "<group>"; };
+		F3EF3D8915D939A000AAD47E /* UDPsender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDPsender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EF3D8D15D939A000AAD47E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3EF3D8F15D939A000AAD47E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3EF3D9115D939A000AAD47E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EF3D8615D939A000AAD47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3469ADC15DD3464000F9688 /* CFNetwork.framework in Frameworks */,
+				F3EF3D8E15D939A000AAD47E /* UIKit.framework in Frameworks */,
+				F3EF3D9015D939A000AAD47E /* Foundation.framework in Frameworks */,
+				F3EF3D9215D939A000AAD47E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F394932F162B290000F3CD31 /* UDPsender */ = {
+			isa = PBXGroup;
+			children = (
+				F3949333162B290000F3CD31 /* AppDelegate.h */,
+				F3949334162B290000F3CD31 /* AppDelegate.m */,
+				F3949341162B290000F3CD31 /* MasterViewController.h */,
+				F3949342162B290000F3CD31 /* MasterViewController.m */,
+				F394933A162B290000F3CD31 /* MasterViewController.xib */,
+				F3949330162B290000F3CD31 /* ActionViewController.h */,
+				F3949331162B290000F3CD31 /* ActionViewController.m */,
+				F3949332162B290000F3CD31 /* ActionViewController.xib */,
+				F3949335162B290000F3CD31 /* ConfigViewController.h */,
+				F3949336162B290000F3CD31 /* ConfigViewController.m */,
+				F3949337162B290000F3CD31 /* ConfigViewController.xib */,
+				F394933C162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.h */,
+				F394933D162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.m */,
+				F394933E162B290000F3CD31 /* GCDAsyncUdpSocket.h */,
+				F394933F162B290000F3CD31 /* GCDAsyncUdpSocket.m */,
+				F3949338162B290000F3CD31 /* InfoPlist.strings */,
+				F3949340162B290000F3CD31 /* main.m */,
+				F3949343162B290000F3CD31 /* Resources */,
+				F3949351162B290000F3CD31 /* UDPsender-Info.plist */,
+				F3949352162B290000F3CD31 /* UDPsender-Prefix.pch */,
+			);
+			path = UDPsender;
+			sourceTree = "<group>";
+		};
+		F3949343162B290000F3CD31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3EF3D7E15D939A000AAD47E = {
+			isa = PBXGroup;
+			children = (
+				0E03225E15EF51B900F66700 /* Default@2x.png */,
+				0E03225B15EF51B500F66700 /* Default.png */,
+				0EBC1B3015EA16B900C09E7C /* iconep1.png */,
+				F394932D162B28D400F3CD31 /* icon_57_57.png */,
+				F3469ADB15DD3464000F9688 /* CFNetwork.framework */,
+				F3EF3D8C15D939A000AAD47E /* Frameworks */,
+				F3EF3D8A15D939A000AAD47E /* Products */,
+				F394932F162B290000F3CD31 /* UDPsender */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EF3D8A15D939A000AAD47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF3D8915D939A000AAD47E /* UDPsender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EF3D8C15D939A000AAD47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF3D8D15D939A000AAD47E /* UIKit.framework */,
+				F3EF3D8F15D939A000AAD47E /* Foundation.framework */,
+				F3EF3D9115D939A000AAD47E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EF3D8815D939A000AAD47E /* UDPsender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EF3DAD15D939A000AAD47E /* Build configuration list for PBXNativeTarget "UDPsender" */;
+			buildPhases = (
+				F3EF3D8515D939A000AAD47E /* Sources */,
+				F3EF3D8615D939A000AAD47E /* Frameworks */,
+				F3EF3D8715D939A000AAD47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDPsender;
+			productName = "Lista de la compra";
+			productReference = F3EF3D8915D939A000AAD47E /* UDPsender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EF3D8015D939A000AAD47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F3EF3D8315D939A000AAD47E /* Build configuration list for PBXProject "UDPsender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3EF3D7E15D939A000AAD47E;
+			productRefGroup = F3EF3D8A15D939A000AAD47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EF3D8815D939A000AAD47E /* UDPsender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EF3D8715D939A000AAD47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC1B3115EA16B900C09E7C /* iconep1.png in Resources */,
+				0E03225C15EF51B500F66700 /* Default.png in Resources */,
+				0E03225F15EF51B900F66700 /* Default@2x.png in Resources */,
+				F394932E162B28D400F3CD31 /* icon_57_57.png in Resources */,
+				F3949354162B290000F3CD31 /* ActionViewController.xib in Resources */,
+				F3949357162B290000F3CD31 /* ConfigViewController.xib in Resources */,
+				F3949358162B290000F3CD31 /* InfoPlist.strings in Resources */,
+				F3949359162B290000F3CD31 /* MasterViewController.xib in Resources */,
+				F3949367162B290000F3CD31 /* UDPsender-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EF3D8515D939A000AAD47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3949353162B290000F3CD31 /* ActionViewController.m in Sources */,
+				F3949355162B290000F3CD31 /* AppDelegate.m in Sources */,
+				F3949356162B290000F3CD31 /* ConfigViewController.m in Sources */,
+				F394935A162B290000F3CD31 /* GCDAsyncUdpSocket+sendString.m in Sources */,
+				F394935B162B290000F3CD31 /* GCDAsyncUdpSocket.m in Sources */,
+				F394935C162B290000F3CD31 /* main.m in Sources */,
+				F394935D162B290000F3CD31 /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3949338162B290000F3CD31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3949339162B290000F3CD31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F394933A162B290000F3CD31 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F394933B162B290000F3CD31 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EF3DAB15D939A000AAD47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3EF3DAC15D939A000AAD47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EF3DAE15D939A000AAD47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDPsender/UDPsender-Prefix.pch";
+				INFOPLIST_FILE = "UDPsender/UDPsender-Info.plist";
+				PRODUCT_NAME = UDPsender;
+				PROVISIONING_PROFILE = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3EF3DAF15D939A000AAD47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xavier Forns (E7Q57R7BN5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDPsender/UDPsender-Prefix.pch";
+				INFOPLIST_FILE = "UDPsender/UDPsender-Info.plist";
+				PRODUCT_NAME = UDPsender;
+				PROVISIONING_PROFILE = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16867CBE-B1F1-4CDD-8661-9A7E22BADB4A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EF3D8315D939A000AAD47E /* Build configuration list for PBXProject "UDPsender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EF3DAB15D939A000AAD47E /* Debug */,
+				F3EF3DAC15D939A000AAD47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EF3DAD15D939A000AAD47E /* Build configuration list for PBXNativeTarget "UDPsender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EF3DAE15D939A000AAD47E /* Debug */,
+				F3EF3DAF15D939A000AAD47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EF3D8015D939A000AAD47E /* Project object */;
+}
