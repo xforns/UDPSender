@@ -1,0 +1,12 @@
+Really simple iOS app that permits to configure a list of UDP messages that can be sent to a single IP and port.
+
+The deployment target and the base SDK are iOS SDK 5.1, and is prepared for armv6 and armv7 architectures.
+
+
+This app started as part of a present for a friend of mine. The 'complete pack' is formed by:
+
+- This app
+- IMHere app
+- Kinect-Detector app
+
+With all three apps, some friends who couldn't attend my friend's birthday party were able to be 'present' there, and even some interactions could be made with them (thanks to the Kinect-Detector). Videos were launched with this iPhone app.
