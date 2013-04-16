@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "UDPSender"
   s.version      = "0.2"
-  s.summary      = "Really simple iOS app that permits to configure a list of UDP messages that can be sent to a single IP and port."
+  s.summary      = " Really simple iOS app that permits to configure a list of UDP messages that can be sent to a single IP and port."
   s.homepage     = "http://twitter.com/xforns"
   s.license      = 'LICENSE'
   s.author       = { "Xavier Forns" => "xavier.forns@gmail.com" }
